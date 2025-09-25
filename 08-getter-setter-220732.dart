@@ -12,10 +12,10 @@ main() {
   print("--------------------------------------------------");
 
   //Test three
-  squaretwo.side = 0;
-  print(squaretwo);
-  print("The area of the square is: ${squaretwo.calculateArea}");
-  print("--------------------------------------------------");
+  //squaretwo.side = 0;
+  //print(squaretwo);
+  //print("The area of the square is: ${squaretwo.calculateArea}");
+  //print("--------------------------------------------------");
 }
 
 class Square {
