@@ -10,7 +10,7 @@ void main() {
   print('--- PERSONAL EXAMPLE ---');
   emitAchievements().listen(
     (achievement) {
-      print('🏋️ Achievement: $achievement');
+      print('Achievement: $achievement');
     },
     onDone: () => print('End of achievement stream'),
   );

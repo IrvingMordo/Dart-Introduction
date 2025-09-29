@@ -2,22 +2,22 @@ void main() {
   final Hero spiderman = Hero(name: "Peter", power: "Like a spider");
   print("""
   ${spiderman.toString()}
-  Nombre: ${spiderman.name}
-  Poder: ${spiderman.power}
+  Name: ${spiderman.name}
+  Power: ${spiderman.power}
   """);
 
-  final Hero superman = Hero(name: "Clark", power: "Volar");
+  final Hero superman = Hero(name: "Clark", power: "Fly");
   print("""
 ${superman.toString()}
-  Nombre: ${superman.name}
-  Poder: ${superman.power}
+  Name: ${superman.name}
+  Power: ${superman.power}
   """);
 
   final Hero batman = Hero(name: "Bruce");
   print("""
 ${batman.toString()}
-  Nombre: ${batman.name}
-  Poder: ${batman.power}
+  Name: ${batman.name}
+  Power: ${batman.power}
   """);
 }
 
@@ -25,7 +25,7 @@ class Hero {
   String name;
   String power;
 
-  Hero({required this.name, String this.power = "Sin poder"});
+  Hero({required this.name, this.power = "No power"});
 
   @override
   String toString() {

@@ -1,6 +1,6 @@
 void main() {
   void localFunction() {
-    print("Esta es una funcion local y solo se invoca dentro del main");
+    print("This is a local function and it can only be called inside main");
   }
 
   localFunction();
@@ -11,24 +11,22 @@ void main() {
 
   print("--------------------------------");
   print("Test 1: ${addTwoNumbers(10, 20)}");
-  // print("Tests 2: ${addTwoNumbers(25, "10")}");
-  print("Tests 3: ${addTwoNumbersWithOptional(25)}");
-  print("Tests 4: ${greetPerson(name: "Irving")}");
-  print("Tests 5: ${greetPerson(name: "Samantha", message: "Buenas tardes")}");
+  // print("Test 2: ${addTwoNumbers(25, "10")}");
+  print("Test 3: ${addTwoNumbersWithOptional(25)}");
+  print("Test 4: ${greetPerson(name: "Irving")}");
+  print("Test 5: ${greetPerson(name: "Samantha", message: "Good afternoon")}");
 }
 
 String globalFunction() {
-  return "Esta es una funcion global y se puede invocar desde cualquier parte del programa";
+  return "This is a global function and it can be called from anywhere in the program";
 }
 
-String greetEveryone() => globalFunction() + ": Saludos a todos";
+String greetEveryone() => globalFunction() + ": Greetings to everyone";
 int addTwoNumbers(int a, int b) => a + b;
 int addTwoNumbersWithOptional(int a, [int b = 0]) {
   return a + b;
 }
 
-String greetPerson({required String name, String message = "Hola"}) {
+String greetPerson({required String name, String message = "Hello"}) {
   return "$message, $name";
-} 
-
- 
+}
