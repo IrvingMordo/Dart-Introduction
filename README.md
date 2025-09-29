@@ -86,3 +86,37 @@ This project is aimed at:
 1. Clone the repository:  
    ```bash
    git clone https://github.com/IrvingMordo/Dart-Introduction.git
+
+
+## Test images 
+
+### 01 - Hello world 
+![texto alternativo](/test-images/Example-01.png) 
+### 02 - Variables 
+![texto alternativo](/test-images/Example-02.png)
+### 03 - Maps 
+![texto alternativo](/test-images/Example-03.png) 
+### 04 - Data structure 
+![texto alternativo](/test-images/Example-04.png) 
+### 05 - Functions 
+![texto alternativo](/test-images/Example-05.png)
+### 06 - Clases 
+![texto alternativo](/test-images/Example-06.png)
+### 07 - Names Constructors 
+![texto alternativo](/test-images/Example-07.png)
+### 08 - Getters and Setters 
+![texto alternativo](/test-images/Example-08.png)
+### 09 - Abstract Classes
+![texto alternativo](/test-images/Example-09.png)
+### 10 - Mixings 
+![texto alternativo](/test-images/Example-10.png)
+### 11 - Futures
+![texto alternativo](/test-images/Example-11.png)
+### 12 - Async await
+![texto alternativo](/test-images/Example-12.png)
+### 13 - Try catch on finally
+![texto alternativo](/test-images/Example-13.png)
+### 14 - Streams 
+![texto alternativo](/test-images/Example-14.png)
+### 15 - Streams await 
+![texto alternativo](/test-images/Example-15.png)
